@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Google Map</title>
+    <style>
+      #map {
+        height: 800px;
+        
+        width: 100%;
+        
+      }
+      h1 {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>My Collegues Location</h1>
+    <div id="map"></div>
+
+    <!-- Google map API -->
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8pVokoan7TQESJ9G25SnoKkRcFEloT4w&callback=initMap&libraries=&v=weekly"
+      async
+    ></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
